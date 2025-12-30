@@ -1,0 +1,14 @@
+2025-12-30 18:26:59 - trade_matching - INFO - ============================================================
+2025-12-30 18:26:59 - trade_matching - INFO - TRADE MATCHING & VALIDATION
+2025-12-30 18:26:59 - trade_matching - INFO - ============================================================
+2025-12-30 18:26:59 - trade_matching - INFO - Backtest file: C:\Users\prana\Downloads\numantix_quant_Developer_assignment\assign\output\backtest_trades.csv
+2025-12-30 18:26:59 - trade_matching - INFO - Live file: C:\Users\prana\Downloads\numantix_quant_Developer_assignment\assign\output\live_trades.csv
+2025-12-30 18:27:00 - trade_matching - INFO - Detailed report saved to C:\Users\prana\Downloads\numantix_quant_Developer_assignment\assign\output\trade_matching_report.txt
+2025-12-30 18:27:00 - trade_matching - ERROR - Validation failed: 'backtest_count'
+Traceback (most recent call last):
+  File "c:\Users\prana\Downloads\numantix_quant_Developer_assignment\assign\scripts\match_trades_script.py", line 102, in <module>
+    exit_code = main()
+  File "c:\Users\prana\Downloads\numantix_quant_Developer_assignment\assign\scripts\match_trades_script.py", line 69, in main
+    if results['backtest_count'] > 0:
+       ~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'backtest_count'

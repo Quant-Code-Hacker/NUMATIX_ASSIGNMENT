@@ -1,0 +1,11 @@
+2025-12-29 13:55:51 - trade_matching - INFO - ============================================================
+2025-12-29 13:55:51 - trade_matching - INFO - TRADE MATCHING & VALIDATION
+2025-12-29 13:55:51 - trade_matching - INFO - ============================================================
+2025-12-29 13:55:51 - trade_matching - INFO - Backtest file: C:\Users\prana\Downloads\numantix_quant_Developer_assignment\assign\output\backtest_trades.csv
+2025-12-29 13:55:51 - trade_matching - INFO - Live file: C:\Users\prana\Downloads\numantix_quant_Developer_assignment\assign\output\live_trades.csv
+2025-12-29 13:55:52 - trade_matching - INFO - Detailed report saved to C:\Users\prana\Downloads\numantix_quant_Developer_assignment\assign\output\trade_matching_report.txt
+2025-12-29 13:55:52 - trade_matching - INFO - 
+Match Rate: 0.0%
+2025-12-29 13:55:52 - trade_matching - INFO - ============================================================
+2025-12-29 13:55:52 - trade_matching - INFO - VALIDATION COMPLETE
+2025-12-29 13:55:52 - trade_matching - INFO - ============================================================

@@ -1,0 +1,15 @@
+2025-12-29 14:15:21 - backtest - INFO - ============================================================
+2025-12-29 14:15:21 - backtest - INFO - STARTING BACKTEST (Recent Data)
+2025-12-29 14:15:21 - backtest - INFO - ============================================================
+2025-12-29 14:15:21 - backtest - INFO - Using Binance Testnet for historical data
+2025-12-29 14:15:21 - backtest - INFO - Fetching data from 2025-11-29 to 2025-12-29
+2025-12-29 14:15:21 - backtest - INFO - Symbol: BTCUSDT
+2025-12-29 14:15:21 - backtest - INFO - Primary TF: 3m, Secondary TF: 15m
+2025-12-29 14:15:29 - backtest - INFO - Data loaded: 14401 primary candles, 2881 secondary candles
+2025-12-29 14:15:29 - backtest - INFO - Strategy initialized: MultiTimeframeStrategy({'fast_sma_period': 5, 'slow_sma_period': 10, 'trend_sma_period': 50, 'rsi_period': 14, 'rsi_overbought': 60, 'rsi_oversold': 30})
+2025-12-29 14:15:29 - backtest - INFO - Running backtest...
+2025-12-29 14:15:35 - backtest - INFO - Saving trades to C:\Users\prana\Downloads\numantix_quant_Developer_assignment\assign\output\backtest_trades.csv...
+2025-12-29 14:15:35 - backtest - INFO - Backtest report saved to C:\Users\prana\Downloads\numantix_quant_Developer_assignment\assign\output\backtest_report.txt
+2025-12-29 14:15:35 - backtest - INFO - ============================================================
+2025-12-29 14:15:35 - backtest - INFO - BACKTEST COMPLETE
+2025-12-29 14:15:35 - backtest - INFO - ============================================================

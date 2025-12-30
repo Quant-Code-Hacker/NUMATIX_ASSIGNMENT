@@ -1,0 +1,20 @@
+2025-12-30 20:55:54 - live_trading - INFO - ============================================================
+2025-12-30 20:55:54 - live_trading - INFO - STARTING LIVE TRADING
+2025-12-30 20:55:54 - live_trading - INFO - ============================================================
+2025-12-30 20:55:54 - live_trading - INFO - Connecting to Binance Testnet...
+2025-12-30 20:55:58 - live_trading - INFO - Successfully connected to Binance Testnet
+2025-12-30 20:55:58 - live_trading - INFO - Strategy initialized: MultiTimeframeStrategy({'fast_sma_period': 5, 'slow_sma_period': 10, 'trend_sma_period': 50, 'rsi_period': 14, 'rsi_overbought': 80, 'rsi_oversold': 30})
+2025-12-30 20:55:58 - live_trading - INFO - Symbol: BTCUSDT
+2025-12-30 20:55:58 - live_trading - INFO - Primary TF: 1m, Secondary TF: 3m
+2025-12-30 20:55:58 - live_trading - INFO - Trade Quantity: 0.001 BTCUSDT
+2025-12-30 20:55:58 - live_trading - INFO - Check Interval: 1 seconds
+2025-12-30 20:55:58 - live_trading - INFO - 
+============================================================
+2025-12-30 20:55:58 - live_trading - INFO - LIVE TRADING STARTED
+2025-12-30 20:55:58 - live_trading - INFO - ============================================================
+
+2025-12-30 20:56:50 - live_trading - INFO - Saving trades to C:\Users\prana\Downloads\numantix_quant_Developer_assignment - Copy\assign\output\live_trades.csv...
+2025-12-30 20:56:50 - live_trading - INFO - ============================================================
+2025-12-30 20:56:50 - live_trading - INFO - LIVE TRADING COMPLETE
+2025-12-30 20:56:50 - live_trading - INFO - ============================================================
+2025-12-30 20:56:50 - live_trading - INFO - Trades saved to: C:\Users\prana\Downloads\numantix_quant_Developer_assignment - Copy\assign\output\live_trades.csv

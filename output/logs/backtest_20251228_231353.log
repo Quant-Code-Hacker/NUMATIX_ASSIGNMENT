@@ -1,0 +1,16 @@
+2025-12-28 23:13:53 - backtest - INFO - ============================================================
+2025-12-28 23:13:53 - backtest - INFO - STARTING BACKTEST (Recent Data)
+2025-12-28 23:13:53 - backtest - INFO - ============================================================
+2025-12-28 23:13:53 - backtest - INFO - Using Binance Mainnet for historical data (public endpoint)
+2025-12-28 23:13:53 - backtest - INFO - Fetching data from 2025-11-28 to 2025-12-28
+2025-12-28 23:13:53 - backtest - INFO - Symbol: BTCUSDT
+2025-12-28 23:13:53 - backtest - INFO - Primary TF: 3m, Secondary TF: 10m
+2025-12-28 23:13:58 - backtest - ERROR - Failed to fetch data: Failed to fetch data for one or both timeframes
+2025-12-28 23:13:58 - backtest - INFO - 
+Trying with even more recent data (last 7 days)...
+2025-12-28 23:14:00 - backtest - ERROR - Failed again: Failed to fetch data for one or both timeframes
+2025-12-28 23:14:00 - backtest - ERROR - 
+Please check:
+2025-12-28 23:14:00 - backtest - ERROR - 1. Internet connection
+2025-12-28 23:14:00 - backtest - ERROR - 2. Symbol is valid (try BTCUSDT, ETHUSDT)
+2025-12-28 23:14:00 - backtest - ERROR - 3. Timeframes are valid (15m, 1h, etc.)

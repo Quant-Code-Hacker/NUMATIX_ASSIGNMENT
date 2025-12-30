@@ -1,0 +1,83 @@
+
+============================================================
+ BACKTEST VS LIVE COMPARISON (FINAL)
+============================================================
+
+ LIVE TRADES:
+   Total: 13 records
+   BUY: 7
+   SELL: 6
+   Time: 2025-12-29 18:12:00 to 2025-12-29 20:56:00
+   Dates: [datetime.date(2025, 12, 29)]
+
+ BACKTEST TRADES:
+   Total: 330 records
+   BUY: 165
+   SELL: 165
+   Time: 2025-12-28 21:11:00 to 2025-12-30 14:01:00
+   Dates: [datetime.date(2025, 12, 28), datetime.date(2025, 12, 29), datetime.date(2025, 12, 30)]
+
+============================================================
+ COMPARING BUY ORDERS BY DATE
+============================================================
+
+Live dates: [datetime.date(2025, 12, 29)]
+Backtest dates: [datetime.date(2025, 12, 28), datetime.date(2025, 12, 29), datetime.date(2025, 12, 30)]
+  Backtest EXTRA: [datetime.date(2025, 12, 28), datetime.date(2025, 12, 30)] (extra data other than the live trade period)
+
+2025-12-29
+────────────────────────────────────────────────────────────
+   Live BUY orders: 7
+   Backtest BUY orders: 88
+   Matched: 7
+   Unmatched live: 0
+
+============================================================
+ OVERALL RESULTS
+============================================================
+
+Total live BUY orders: 7
+ Matched: 7
+ Unmatched live: 0
+ Unmatched backtest: 81
+
+ Match Rate: 100.0%
+
+============================================================
+ SAMPLE MATCHED TRADES
+============================================================
+
+   2025-12-29:
+      Live:     18:12:00 @ $87788.15
+      Backtest: 18:09:00 @ $87743.66
+      Time Difference : 180s |  Price Difference: 0.051%
+
+   2025-12-29:
+      Live:     18:27:00 @ $87720.00
+      Backtest: 18:27:00 @ $87718.06
+      Time Difference : 0s |  Price Difference: 0.002%
+
+   2025-12-29:
+      Live:     19:02:00 @ $87470.00
+      Backtest: 19:02:00 @ $87470.00
+      Time Difference : 0s |  Price Difference: 0.000%
+
+   2025-12-29:
+      Live:     20:05:00 @ $87439.57
+      Backtest: 20:05:00 @ $87439.57
+      Time Difference : 0s |  Price Difference: 0.000%
+
+   2025-12-29:
+      Live:     20:16:00 @ $87597.58
+      Backtest: 20:17:00 @ $87522.67
+      Time Difference : 60s |  Price Difference: 0.086%
+
+   2025-12-29:
+      Live:     20:35:00 @ $87346.85
+      Backtest: 20:35:00 @ $87354.52
+      Time Difference : 0s |  Price Difference: 0.009%
+
+   2025-12-29:
+      Live:     20:56:00 @ $87204.73
+      Backtest: 20:56:00 @ $87204.73
+      Time Difference : 0s |  Price Difference: 0.000%

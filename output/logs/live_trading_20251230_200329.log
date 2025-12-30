@@ -1,0 +1,6 @@
+2025-12-30 20:03:29 - live_trading - INFO - ============================================================
+2025-12-30 20:03:29 - live_trading - INFO - STARTING LIVE TRADING
+2025-12-30 20:03:29 - live_trading - INFO - ============================================================
+2025-12-30 20:03:29 - live_trading - INFO - Connecting to Binance Testnet...
+2025-12-30 20:03:29 - live_trading - ERROR - Failed to connect to Binance Testnet: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/account?timestamp=1767105209888&signature=3f5d238073b687c5561e4eea092517191c0a8712604c8816b733817c0737a9ae (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000272BEA06270>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2025-12-30 20:03:29 - live_trading - ERROR - Please check your API keys and internet connection

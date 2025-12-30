@@ -1,0 +1,15 @@
+2025-12-29 17:04:22 - trade_matching - INFO - ============================================================
+2025-12-29 17:04:22 - trade_matching - INFO - TRADE MATCHING & VALIDATION
+2025-12-29 17:04:22 - trade_matching - INFO - ============================================================
+2025-12-29 17:04:22 - trade_matching - INFO - Backtest file: C:\Users\prana\Downloads\numantix_quant_Developer_assignment\assign\output\backtest_trades.csv
+2025-12-29 17:04:22 - trade_matching - INFO - Live file: C:\Users\prana\Downloads\numantix_quant_Developer_assignment\assign\output\live_trades.csv
+2025-12-29 17:04:22 - trade_matching - ERROR - Validation failed: TradeValidator.__init__() got an unexpected keyword argument 'time_tolerance'. Did you mean 'price_tolerance'?
+Traceback (most recent call last):
+  File "c:\Users\prana\Downloads\numantix_quant_Developer_assignment\assign\scripts\match_trades_script.py", line 103, in <module>
+    exit_code = main()
+  File "c:\Users\prana\Downloads\numantix_quant_Developer_assignment\assign\scripts\match_trades_script.py", line 40, in main
+    validator = TradeValidator(
+        price_tolerance=settings.PRICE_TOLERANCE,
+        time_tolerance=settings.TIME_TOLERANCE
+    )
+TypeError: TradeValidator.__init__() got an unexpected keyword argument 'time_tolerance'. Did you mean 'price_tolerance'?

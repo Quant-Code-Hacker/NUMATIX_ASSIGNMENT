@@ -1,0 +1,30 @@
+BACKTEST RESULTS
+============================================================
+
+Symbol: BTCUSDT
+Period: 2025-11-29 to 2025-12-29
+Primary Timeframe: 1m
+Secondary Timeframe: 3m
+
+Primary Candles: 14401
+Secondary Candles: 2881
+
+
+Strategy Parameters:
+  fast_sma_period: 5
+  slow_sma_period: 10
+  trend_sma_period: 50
+  rsi_period: 14
+  rsi_overbought: 80
+  rsi_oversold: 30
+
+
+BACKTEST SUMMARY
+
+Initial Capital: $9,197.94
+Final Equity: $182,181.42
+Total Trades: 171
+Win Rate: 44.44%
+Total Return: 3.54%
+Sharpe Ratio: 15.37
+Max Drawdown: -1.46%

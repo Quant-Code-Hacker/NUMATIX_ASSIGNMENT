@@ -1,0 +1,6 @@
+2025-12-30 19:17:23 - live_trading - INFO - ============================================================
+2025-12-30 19:17:23 - live_trading - INFO - STARTING LIVE TRADING
+2025-12-30 19:17:23 - live_trading - INFO - ============================================================
+2025-12-30 19:17:23 - live_trading - INFO - Connecting to Binance Testnet...
+2025-12-30 19:17:23 - live_trading - ERROR - Failed to connect to Binance Testnet: 400 Client Error: Bad Request for url: https://testnet.binance.vision/api/v3/account?timestamp=1767102443577&signature=2aedc4df6f0f105f614e36a4d6296b2215b05ec960b70634fb4876df8990e6f2
+2025-12-30 19:17:23 - live_trading - ERROR - Please check your API keys and internet connection
