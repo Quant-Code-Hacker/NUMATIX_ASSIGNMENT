@@ -218,6 +218,14 @@ python scripts/match_trades.py
 ```
 
 ## 6. Logging & Observability
+### OUTPUTS 
+**LIVE**
+![Output Screenshot](images/live1.png)
+![Output Screenshot](images/live2.png)
+
+**BACKTEST**
+![Output Screenshot](images/backtest1.png)
+![Output Screenshot](images/backtest2.png)
 
 ### Structured Logging
 All modules use centralized logging (`utils/logger.py`) with:
