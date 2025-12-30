@@ -49,6 +49,7 @@ This implementation follows a clean, modular, class-based architecture that ensu
 ### Strategy Logic
 
 **NOT MUCH TRADES WERE GENERATED USING 15m and 1 hour TIMEFRAME SO I HAD LATER TRIED WITH LESSER VALUES**
+\\
 **Primary Timeframe (1m)**: Entry signals via SMA crossover
 - Fast SMA (5 periods) and Slow SMA (10 periods)
 - Bullish crossover: Fast SMA crosses above Slow SMA
