@@ -250,6 +250,8 @@ All modules use centralized logging (`utils/logger.py`) with:
 - Execution price
 - Trade record creation
 
+
+**The current log files even contain the files from the previous executions done while implementing. **
 ### Log Files
 - `output/logs/backtest_YYYYMMDD_HHMMSS.log`: Backtest execution logs
 - `output/logs/live_trading_YYYYMMDD_HHMMSS.log`: Live trading logs
@@ -316,12 +318,9 @@ timestamp,symbol,side,entry_price,quantity,order_id,status,exit_time,exit_price,
 4. **Deterministic Rules**: Strategy is fully rule-based with no randomness
 5. **Identical Parameters**: Same SMA periods, RSI thresholds, etc.
 
-## Observations & Limitations
-
 ### Expected Differences
 - **Price Differences**: Live execution at market price vs backtest at candle close (±2% tolerance)
 - **Timing Differences**: Candle close detection timing (±5 minutes tolerance)
-- **Order Fills**: Live orders may partially fill or have slippage
 
 ### Known Limitations
 - Long-only strategy (no short positions)
