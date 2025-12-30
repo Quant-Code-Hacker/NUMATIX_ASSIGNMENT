@@ -189,7 +189,8 @@ python scripts/run_live.py
   - `BINANCE_TESTNET_API_SECRET`
 
 ## 5. Trade Matching & Validation
-
+**PLease Note : While backtesting I have even considered other days also (previous day of the live execution , current day with extra one hour) , hence the number of trades is more.
+But when compared with the live test time period , the trades match completely (Refer : Output/Validation.txt)**
 ### Purpose
 Validates that backtest and live trading produce **identical signals** and similar execution, ensuring strategy parity.
 
